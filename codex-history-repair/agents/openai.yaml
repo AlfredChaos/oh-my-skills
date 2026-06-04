@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex History Repair"
+  short_description: "Recover Codex history after provider changes"
+  default_prompt: "Use -history-repair to recover Codex Desktop history after switching providers."
