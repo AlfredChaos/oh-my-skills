@@ -1,0 +1,4 @@
+interface:
+  display_name: "QianWen AI"
+  short_description: "QianWen text, image, video, audio, vision tools"
+  default_prompt: "Use $qianwen-ai to generate a short HappyHorse video from this prompt."
