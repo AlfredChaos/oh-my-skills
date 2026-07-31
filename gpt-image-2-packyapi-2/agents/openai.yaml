@@ -1,0 +1,7 @@
+interface:
+  display_name: "GPT Image 2 PackyAPI"
+  short_description: "Generate and edit images with PackyAPI"
+  default_prompt: "Use $gpt-image-2-packyapi to generate or edit an image with PackyAPI through the Python CLI."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ffac7706-32ac-4b62-846a-707e6316a60b",
+  "path": "plan",
+  "path_key": "plan",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b2528984-ca03-412e-b61f-fde3d4f7b1cc",
+  "path": "kieai-seedance",
+  "path_key": "kieai-seedance",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

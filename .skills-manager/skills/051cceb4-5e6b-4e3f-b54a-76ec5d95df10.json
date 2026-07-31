@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "051cceb4-5e6b-4e3f-b54a-76ec5d95df10",
+  "path": "implement",
+  "path_key": "implement",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

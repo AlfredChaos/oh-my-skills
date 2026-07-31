@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5e8e9ed7-6550-4667-8bee-eb6d3eeec9c3",
+  "path": "touchdesigner-mcp",
+  "path_key": "touchdesigner-mcp",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

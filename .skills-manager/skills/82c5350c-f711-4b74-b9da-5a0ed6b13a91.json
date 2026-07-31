@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "82c5350c-f711-4b74-b9da-5a0ed6b13a91",
+  "path": "ask-matt",
+  "path_key": "ask-matt",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

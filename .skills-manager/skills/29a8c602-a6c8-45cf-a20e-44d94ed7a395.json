@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "29a8c602-a6c8-45cf-a20e-44d94ed7a395",
+  "path": "executing-plans",
+  "path_key": "executing-plans",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

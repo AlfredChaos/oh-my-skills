@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3cac16d7-c3bc-4b65-8d4e-3f73c0f3a1ae",
+  "path": "plugin-creator",
+  "path_key": "plugin-creator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

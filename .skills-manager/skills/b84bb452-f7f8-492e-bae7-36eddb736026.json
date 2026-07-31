@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b84bb452-f7f8-492e-bae7-36eddb736026",
+  "path": "webapp-testing",
+  "path_key": "webapp-testing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

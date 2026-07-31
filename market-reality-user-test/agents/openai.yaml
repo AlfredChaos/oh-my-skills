@@ -1,0 +1,4 @@
+interface:
+  display_name: "Market Reality User Test"
+  short_description: "Low-trust user simulation for product review"
+  default_prompt: "Use $market-reality-user-test to review this product flow before launch."

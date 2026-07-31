@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bc6d188e-92a5-4bcf-adf6-ba3b2c445d02",
+  "path": "design-md",
+  "path_key": "design-md",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

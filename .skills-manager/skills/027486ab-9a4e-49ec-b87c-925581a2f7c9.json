@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "027486ab-9a4e-49ec-b87c-925581a2f7c9",
+  "path": "sketch",
+  "path_key": "sketch",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f043ec8f-92ff-403c-81d6-55f8fb472eb7",
+  "path": "electron",
+  "path_key": "electron",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

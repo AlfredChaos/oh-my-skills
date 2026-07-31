@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0e7001d4-01f4-4bc0-85fd-fb3da5054985",
+  "path": "awesome-design-md",
+  "path_key": "awesome-design-md",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

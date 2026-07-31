@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5cbed37c-0da4-4905-b073-ff2f919dddb9",
+  "path": "ponytail-help",
+  "path_key": "ponytail-help",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

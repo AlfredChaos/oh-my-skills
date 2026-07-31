@@ -1,0 +1,7 @@
+interface:
+  display_name: "KieAI Seedance"
+  short_description: "Submit and poll Seedance 2 jobs through KieAI"
+  default_prompt: "Use $kieai-seedance to submit or run a bytedance/seedance-2 or bytedance/seedance-2-fast video task through KieAI."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ba887868-6971-405f-abd0-d6ebf7ee0cb1",
+  "path": "shadcn",
+  "path_key": "shadcn",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

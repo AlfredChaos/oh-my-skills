@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a8fbb0bb-7759-4ef2-b4cd-6422b1fb7e3b",
+  "path": "market-reality-user-test",
+  "path_key": "market-reality-user-test",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1d5f7a32-674d-4d1a-94d9-fb04cd6f0ca8",
+  "path": "macos-computer-use",
+  "path_key": "macos-computer-use",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d1e49d8a-fa85-4dfc-853a-97cc94c648d1",
+  "path": "ponytail-debt",
+  "path_key": "ponytail-debt",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
