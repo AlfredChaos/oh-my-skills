@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e31579c4-2cd4-4dc5-98eb-8706b2a4ec13",
+  "path": "minimalist-ui",
+  "path_key": "minimalist-ui",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "leonxlnx/taste-skill/minimalist-ui",
+    "subpath": "skills/minimalist-skill",
+    "branch": null
+  }
+}

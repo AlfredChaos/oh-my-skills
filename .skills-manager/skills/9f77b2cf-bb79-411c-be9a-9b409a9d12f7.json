@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9f77b2cf-bb79-411c-be9a-9b409a9d12f7",
+  "path": "industrial-brutalist-ui",
+  "path_key": "industrial-brutalist-ui",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "leonxlnx/taste-skill/industrial-brutalist-ui",
+    "subpath": "skills/brutalist-skill",
+    "branch": null
+  }
+}

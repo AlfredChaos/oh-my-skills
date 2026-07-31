@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f161a1a0-6b16-45a8-a710-e35c7ec046a0",
+  "path": "full-output-enforcement",
+  "path_key": "full-output-enforcement",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "leonxlnx/taste-skill/full-output-enforcement",
+    "subpath": "skills/output-skill",
+    "branch": null
+  }
+}
