@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1c4d899e-1e5d-4f81-9111-d50d704577be",
+  "path": "qianwen-ai/vendor/qianwen-ai-skills/qianwen-text",
+  "path_key": "qianwen-ai/vendor/qianwen-ai-skills/qianwen-text",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

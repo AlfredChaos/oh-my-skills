@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1c05f9bb-8a50-4203-b527-4e310f31a3b5",
+  "path": "qianwen-ai/vendor/qianwen-ai-skills/qianwen-model-selector",
+  "path_key": "qianwen-ai/vendor/qianwen-ai-skills/qianwen-model-selector",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

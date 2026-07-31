@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fbdc7dc6-5184-4685-b9ba-ad13b9f97e26",
+  "path": "gpt-image-2-packyapi",
+  "path_key": "gpt-image-2-packyapi",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

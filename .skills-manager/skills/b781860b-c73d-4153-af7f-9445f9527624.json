@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b781860b-c73d-4153-af7f-9445f9527624",
+  "path": "qianwen-ai/vendor/qianwen-ai-skills/qianwen-ops-auth",
+  "path_key": "qianwen-ai/vendor/qianwen-ai-skills/qianwen-ops-auth",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

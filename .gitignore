@@ -14,3 +14,6 @@ dist/
 build/
 outputs/
 *.log
+Thumbs.db
+*.tmp
+.skills-manager.lock

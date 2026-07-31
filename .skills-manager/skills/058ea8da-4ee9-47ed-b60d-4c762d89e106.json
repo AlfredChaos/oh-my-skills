@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "058ea8da-4ee9-47ed-b60d-4c762d89e106",
+  "path": "codex-history-repair",
+  "path_key": "codex-history-repair",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

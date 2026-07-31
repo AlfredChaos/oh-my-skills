@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4c2d2fc2-e939-492f-adc3-be6c3edaca5e",
+  "path": "qianwen-ai/vendor/qianwen-ai-skills/qianwen-audio-tts",
+  "path_key": "qianwen-ai/vendor/qianwen-ai-skills/qianwen-audio-tts",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

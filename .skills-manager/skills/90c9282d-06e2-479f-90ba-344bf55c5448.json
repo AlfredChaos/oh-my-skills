@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "90c9282d-06e2-479f-90ba-344bf55c5448",
+  "path": "qianwen-ai",
+  "path_key": "qianwen-ai",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

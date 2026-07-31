@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b9d98b03-de6c-49cd-adea-af1b618a415b",
+  "path": "qianwen-ai/vendor/qianwen-ai-skills/qianwen-vision",
+  "path_key": "qianwen-ai/vendor/qianwen-ai-skills/qianwen-vision",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

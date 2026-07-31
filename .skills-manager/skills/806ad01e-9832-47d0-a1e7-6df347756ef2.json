@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "806ad01e-9832-47d0-a1e7-6df347756ef2",
+  "path": "qianwen-ai/vendor/qianwen-ai-skills/qianwen-image-generation",
+  "path_key": "qianwen-ai/vendor/qianwen-ai-skills/qianwen-image-generation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

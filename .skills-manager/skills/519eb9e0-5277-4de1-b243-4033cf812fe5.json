@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "519eb9e0-5277-4de1-b243-4033cf812fe5",
+  "path": "qianwen-ai/vendor/qianwen-ai-skills/qianwen-update-check",
+  "path_key": "qianwen-ai/vendor/qianwen-ai-skills/qianwen-update-check",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

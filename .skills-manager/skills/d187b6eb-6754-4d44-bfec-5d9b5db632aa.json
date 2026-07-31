@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d187b6eb-6754-4d44-bfec-5d9b5db632aa",
+  "path": "qianwen-ai/vendor/qianwen-ai-skills/qianwen-video-generation",
+  "path_key": "qianwen-ai/vendor/qianwen-ai-skills/qianwen-video-generation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
