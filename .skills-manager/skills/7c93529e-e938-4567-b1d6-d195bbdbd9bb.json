@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7c93529e-e938-4567-b1d6-d195bbdbd9bb",
+  "path": "ai-seo",
+  "path_key": "ai-seo",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "coreyhaines31/marketingskills/ai-seo",
+    "subpath": "skills/ai-seo",
+    "branch": null
+  }
+}

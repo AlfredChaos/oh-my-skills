@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6af684a2-4c58-43b1-a225-b1d2afa82320",
+  "path": "programmatic-seo",
+  "path_key": "programmatic-seo",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "coreyhaines31/marketingskills/programmatic-seo",
+    "subpath": "skills/programmatic-seo",
+    "branch": null
+  }
+}
