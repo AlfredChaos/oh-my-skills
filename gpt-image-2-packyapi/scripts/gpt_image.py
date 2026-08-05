@@ -258,6 +258,8 @@ def download_file(url: str, output_path: Path, timeout_seconds: int) -> None:
 
 
 def common_payload(args: argparse.Namespace, model: str) -> dict[str, object]:
+    # NOTE: response_format is intentionally omitted; PackyAPI's gateway rejects
+    # it with HTTP 400 "Unknown parameter". url responses are the default.
     payload: dict[str, object] = {
         "model": model,
         "prompt": args.prompt,
@@ -265,7 +267,6 @@ def common_payload(args: argparse.Namespace, model: str) -> dict[str, object]:
         "size": args.size,
         "quality": args.quality,
         "output_format": args.output_format,
-        "response_format": args.response_format,
     }
     optional_fields = {
         "output_compression": args.output_compression,
