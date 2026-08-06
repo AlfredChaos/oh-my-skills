@@ -22,7 +22,7 @@ python scripts/gpt_image.py generate --prompt "..." --size 1024x1024 --quality h
 ```
 
 ```bash
-python scripts/gpt_image.py edit --image /path/to/input.png --prompt "..." --mask /path/to/mask.png
+python scripts/gpt_image.py edit --image /path/to/input.png --prompt "..." --mask /path/to/mask.png --size 1024x1024
 ```
 
 Rules:
@@ -30,9 +30,9 @@ Rules:
 - Use `generate` when there is no source image.
 - Use `edit` when a source image is provided.
 - Keep `n=1`; do not request multiple outputs in one call.
-- Prefer `response_format=url` unless the workflow needs raw base64 bytes.
+- Do not pass `response_format`; PackyAPI's gateway currently rejects it with HTTP 400 "Unknown parameter" and always returns `b64_json`. The script saves the result to `PACKYAPI_OUTPUT_DIR` automatically.
 - Use valid 16-multiple sizes only; `auto` is allowed.
-- For edits, pass one image at a time and prefer `input_fidelity=high`.
+- For edits, pass one image at a time. Do not pass `input_fidelity`; PackyAPI's gateway currently rejects it for `gpt-image-2` with HTTP 400.
 - Do not use Chat Completions or Responses API image paths for this model.
 
 ## Script behavior

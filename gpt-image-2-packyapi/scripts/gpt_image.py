@@ -17,16 +17,14 @@ from pathlib import Path
 from uuid import uuid4
 
 
-DEFAULT_BASE_URL = "https://www.packyapi.com"
+DEFAULT_BASE_URL = "https://www.packyapi.ai"
 DEFAULT_MODEL = "gpt-image-2"
 DEFAULT_OUTPUT_DIR = "./outputs"
 DEFAULT_TIMEOUT_SECONDS = 300
 VALID_QUALITY = {"auto", "low", "medium", "high"}
-VALID_RESPONSE_FORMAT = {"url", "b64_json"}
 VALID_OUTPUT_FORMAT = {"png", "jpeg"}
 VALID_BACKGROUND = {"opaque"}
 VALID_MODERATION = {"auto", "low"}
-VALID_INPUT_FIDELITY = {"high", "low"}
 SIZE_RE = re.compile(r"^(\d+)x(\d+)$")
 
 
@@ -94,8 +92,6 @@ def validate_common(args: argparse.Namespace) -> None:
     validate_size(args.size)
     if args.quality not in VALID_QUALITY:
         raise GptImageError(f"quality must be one of {sorted(VALID_QUALITY)}")
-    if args.response_format not in VALID_RESPONSE_FORMAT:
-        raise GptImageError(f"response_format must be one of {sorted(VALID_RESPONSE_FORMAT)}")
     if args.output_format not in VALID_OUTPUT_FORMAT:
         raise GptImageError("output_format should be png or jpeg")
     if args.output_compression is not None:
@@ -259,7 +255,8 @@ def download_file(url: str, output_path: Path, timeout_seconds: int) -> None:
 
 def common_payload(args: argparse.Namespace, model: str) -> dict[str, object]:
     # NOTE: response_format is intentionally omitted; PackyAPI's gateway rejects
-    # it with HTTP 400 "Unknown parameter". url responses are the default.
+    # it with HTTP 400 "Unknown parameter". The gateway always returns b64_json,
+    # which save_result() writes to disk locally.
     payload: dict[str, object] = {
         "model": model,
         "prompt": args.prompt,
@@ -314,8 +311,6 @@ def generate(args: argparse.Namespace) -> dict[str, object]:
 
 def edit(args: argparse.Namespace) -> dict[str, object]:
     validate_common(args)
-    if args.input_fidelity and args.input_fidelity not in VALID_INPUT_FIDELITY:
-        raise GptImageError(f"input_fidelity must be one of {sorted(VALID_INPUT_FIDELITY)}")
 
     image_path = Path(args.image)
     if not image_path.is_file():
@@ -330,8 +325,6 @@ def edit(args: argparse.Namespace) -> dict[str, object]:
 
     api_key, base_url, model, output_dir, timeout_seconds = resolve_settings(args)
     fields = common_payload(args, model)
-    if args.input_fidelity:
-        fields["input_fidelity"] = args.input_fidelity
 
     response = request_multipart(
         f"{base_url}/v1/images/edits",
@@ -349,7 +342,6 @@ def add_common_args(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--prompt", required=True, help="Image prompt or edit instruction.")
     parser.add_argument("--size", default="auto", help="auto or WIDTHxHEIGHT.")
     parser.add_argument("--quality", default="auto", choices=sorted(VALID_QUALITY))
-    parser.add_argument("--response-format", default="url", choices=sorted(VALID_RESPONSE_FORMAT))
     parser.add_argument("--output-format", default="png", choices=sorted(VALID_OUTPUT_FORMAT))
     parser.add_argument("--output-compression", type=int)
     parser.add_argument("--background")
@@ -374,7 +366,6 @@ def build_parser() -> argparse.ArgumentParser:
     add_common_args(edit_parser)
     edit_parser.add_argument("--image", required=True, help="Input image path.")
     edit_parser.add_argument("--mask", help="Optional PNG mask path.")
-    edit_parser.add_argument("--input-fidelity", default="high", choices=sorted(VALID_INPUT_FIDELITY))
     edit_parser.set_defaults(func=edit)
 
     return parser
