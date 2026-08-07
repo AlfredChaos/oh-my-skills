@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cf96c50e-5f43-4b16-949b-114802840a7a",
+  "path": "ego-browser",
+  "path_key": "ego-browser",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "citrolabs/ego-lite/ego-browser",
+    "subpath": "skills/ego-browser",
+    "branch": null
+  }
+}
