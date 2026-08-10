@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3787c2c3-ca2e-4b18-86ff-ab9c766f34f6",
+  "path": "user-story",
+  "path_key": "user-story",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "deanpeters/product-manager-skills/user-story",
+    "subpath": "skills/user-story",
+    "branch": null
+  }
+}
