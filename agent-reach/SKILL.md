@@ -49,33 +49,6 @@ bird user-tweets @username -n 20           # user timeline
 bird thread URL_OR_ID                      # full thread
 ```
 
-> `bird` requires Safari/Chrome/Firefox cookies (logged into x.com) or
-> `AUTH_TOKEN` + `CT0` env vars. When that fails, use the cookie-less
-> fallback chain in `references/twitter-url-resolution.md`.
-
-## Twitter/X (cookie-less fallbacks)
-
-```bash
-# 1) Read tweet + media URLs (basic engagement, no auth)
-curl -s "https://api.vxtwitter.com/i/status/<id>"
-
-# 2) Read tweet + ALL video format variants + current engagement (richer than vxtwitter)
-curl -s "https://api.fxtwitter.com/i/status/<id>"
-
-# 3) Download the video directly (guest token auto-acquired, no auth)
-yt-dlp -f "worst[ext=mp4]/worst" "https://x.com/i/status/<id>"
-
-# 4) Last-resort HTML renderer when APIs return "User not found"
-curl -s "https://unrollnow.com/status/<id>"
-```
-
-**Pick order**: `bird` → `vxtwitter` (quick metadata) → `fxtwitter` (richer
-metadata + video variants) → `yt-dlp` (direct download for transcription) →
-`unrollnow` (HTML when APIs blocked). Never `curl video.twimg.com/*.mp4`
-directly — it times out. Always route through `yt-dlp`.
-
-Full HTML parse recipe + edge cases: `references/twitter-url-resolution.md`.
-
 ## YouTube (yt-dlp)
 
 ```bash
