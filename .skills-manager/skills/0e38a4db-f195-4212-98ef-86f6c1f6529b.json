@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0e38a4db-f195-4212-98ef-86f6c1f6529b",
+  "path": "logo-creator",
+  "path_key": "logo-creator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "resciencelab/opc-skills/logo-creator",
+    "subpath": "skills/logo-creator",
+    "branch": null
+  }
+}

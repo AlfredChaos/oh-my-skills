@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "dcc191fb-5ab8-4f2a-bd70-515bb2077d60",
+  "path": "svg-logo-designer",
+  "path_key": "svg-logo-designer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "rknall/claude-skills/svg-logo-designer",
+    "subpath": "svg-logo-designer",
+    "branch": null
+  }
+}
