@@ -17,7 +17,7 @@ from pathlib import Path
 from uuid import uuid4
 
 
-DEFAULT_BASE_URL = "https://www.packyapi.ai"
+DEFAULT_BASE_URL = "https://cf.api.fan"
 DEFAULT_MODEL = "gpt-image-2"
 DEFAULT_OUTPUT_DIR = "./outputs"
 DEFAULT_TIMEOUT_SECONDS = 300
