@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ee64979a-9e55-43e5-bef2-fda1c408ba1d",
+  "path": "app-store-screenshots",
+  "path_key": "app-store-screenshots",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "skills-101/superpowers/app-store-screenshots",
+    "subpath": "guides/design/app-store-screenshots",
+    "branch": null
+  }
+}
